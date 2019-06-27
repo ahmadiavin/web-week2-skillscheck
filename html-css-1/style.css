@@ -1,0 +1,64 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .nav-bar {
+    /* border: 1px solid white; */
+    width: 100vw;
+    height: 7vh;
+    background-color: rgb(106, 105, 112);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+  }
+ 
+  .nav-content-wrapper {
+    width: 80vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+  .nav-content-wrapper h1 {
+    font-size: 1.2em;
+    
+  }
+  .nav-content-wrapper ul {
+    width: 25vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .nav-content-wrapper div {
+    width: 30vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .hero {
+    width: 100vw;
+    height: 55vh;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+    background-color: rgb(5, 5, 5);
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+  
+  .hero h1 {
+    font-size: 4em;
+    font-weight: bold;
+    color: #eeff00;
+    margin-bottom: 30px;
+  }
